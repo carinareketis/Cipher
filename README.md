@@ -32,51 +32,11 @@ com facilidade e não oferecem muita segurança na comunição, mas a cifra de
 César muitas vezes pode fazer parte de um sistema mais complexo de
 criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
-## Objetivos
+## Diagrama de blocos
+![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
-O objetivo principal de aprendizagem deste projeto é que você tenha sua
-primeira experiência construindo uma aplicação web, usando os seus
-conhecimentos de **User Experience Design** e de **JavaScript**. Isso
-inclui desenhar um produto pensando nos usuários, construir uma interface,
-escutar eventos básicos do DOM, escrever a lógica que cifra e descifra
-mensagens, realizar testes básicos que comprovem (e documentem) esta lógica,
-e finalmente manipular o DOM para que ele mostre e imprima os resultados.
 
-Esperamos que neste projeto você possa pensar no usuário, entendendo quem ele
-é e suas necessidades. A ideia é que consiga entender o que o usuário
-necessita para criar o produto e o ajudar a resolver suas necessidades da
-melhor maneira possível.
 
-Também é esperado que você possa se organizar, tendo em conta o tempo e os
-recursos disponíveis. Essa é a primeira vez que avaliaremos suas soft skills,
-mas deve considerar que são habilidades que provavelmente já deve ter
-utilizado em diversas experiências em sua vida. O importante é que realize
-o projeto de forma integral.
-
-## Considerações gerais
-
-A lógica do projeto deve estar implementada inteiramente em JavaScript(ES6).
-Nesse projeto NÃO está permitido usar bibliotecas ou frameworks, só
-[vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
-
-Para começar este projeto você terá que fazer um _fork_ e _clonar_ este
-repositório que contém o _boilerplate_.
-
-O _boilerplate_ contém uma estrutura de arquivos como ponto de partida, assim
-como toda a configuração de dependência:
-
-```text
-./
-├── .gitignore
-├── README.md
-├── src
-│   ├── cipher.js
-│   ├── index.html
-│   ├── tests.js
-│   └── style.css
-```
-
-## Parte obrigatória
 
 ### Definição do produto
 
