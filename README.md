@@ -1,14 +1,5 @@
 # Cifra de César
 
-## Prefácio
-
-O aniversário da sua mãe está se aproximando e você está organizando uma festa
-surpresa. Para manter a festa em segredo foi criado um grupo de Whatsapp com
-amigxs e familiares. O problema é que as vezes sua mãe utiliza o seu celular
-e pode ser que ela veja as suas mensagens. Como a festa é surpresa, você
-decide criar uma aplicação que permita enviar mensagens criptografadas e depois
-descriptografar. Então agora é a hora de aplicar os seus super poderes 😎
-
 ## Introdução
 
 A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos
@@ -32,7 +23,8 @@ com facilidade e não oferecem muita segurança na comunição, mas a cifra de
 César muitas vezes pode fazer parte de um sistema mais complexo de
 criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
-## Checklist
+![caeser-cipher](https://github.com/carinareketis/caesar-cipher/blob/master/src/prefacioCipherCesar.png)
+![caeser-cipher](https://github.com/carinareketis/caesar-cipher/blob/master/src/fluxogramaCipherCesar.png)
 
 ### Parte Obrigatória
 
@@ -50,13 +42,5 @@ criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13.
 * [ ] Implementa `cipher.decode`.
 * [ ] Criar testes unitários.
 
-## Diagrama de blocos
-![caeser-cipher](https://github.com/carinareketis/caesar-cipher/blob/master/fluxogramaCipherCesar.png)
 
-## Descrição
-
-* O usuário insere uma mensagem por meio de um input, essa mensagem é armazenada.
-* Com o "for" encontramos o código ASCII de cada letra, esses valores são armazenados.
-* São feitas duas verificações: 1ª se os códigos ASCII armazenados forem >= 65 && <= 90, 2ª se os códigos ASCII armazenados forem >= 97   && <= 122, será executada a criptografia com a fórmula: (código ASCII - 65 + offset) % 26 + 65, o "offset" é a quantidade de             deslocamento, esses valores são armazenados em um array e exibidos.
-* A mesma lógica é aplicada ao descriptografar, alterando somente a fórmula...continua
 
