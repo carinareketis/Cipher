@@ -2,12 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="style.css" />
+    <title>Cifra de Cesar</title>
   </head>
+  
   <body>
-    <div id="root"></div>
+    <center>
+      <header>
+        <h1>CIFRA DE CESAR</h1>
+      </header>
+    </center>
+    <br>
+    <div class="group">
+
+      <div id="divMensagens">
+        <br><br><br>
+        <h2>Mensagem original:</h2>
+        <h3 id="message"></h3>
+
+        <h2>Mensagem cifrada:</h2>
+        <h3 id="message-cipher"></h3>
+
+        <h2>Mensagem decifrada:</h2>
+        <h3 id="message-decipher"></h3>
+      </div>
+
+      <img id="logo" src="logo.gif" alt="logo do Cipher">
+      
+    </div>
+      
     <script src="cipher.js"></script>
-    <script src="index.js"></script>
+    <script src="tests.js"></script>
+
   </body>
+  
 </html>
