@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="style.css" />
-    <title>Cifra de Cesar</title>
-  </head>
-  
-  <body>
-    <center>
-      <header>
-        <h1>CIFRA DE CESAR</h1>
-      </header>
-    </center>
-    <br>
-    <div class="group">
 
-      <div id="divMensagens">
-        <br><br><br>
-        <h2>Mensagem original:</h2>
-        <h3 id="message"></h3>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Cripto</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
 
-        <h2>Mensagem cifrada:</h2>
-        <h3 id="message-cipher"></h3>
+<body>
 
-        <h2>Mensagem decifrada:</h2>
-        <h3 id="message-decipher"></h3>
-      </div>
+	<div class="container">
 
-      <img id="logo" src="logo.gif" alt="logo do Cipher">
-      
+		<div class="bloco">
+			<img id="logo-cripto" src="cripto-logo.svg" alt="Logo Cripto">
+
+      <h4>Envie mensagens de texto seguras para qualquer amigo XD</h4>
+
+      <textarea placeholder="Escreva sua mensagem" id="id-string"></textarea>
+
+      <br><br>
+
+      <input type="number" id="id-offset" placeholder="Indique o deslocamento"/>
+
+      <br><br>
+
+      <button id="id-button-encode" class="buttonEncode" onclick="buttonEncode()">Criptografar</button>
+
+      <button id="id-button-decode" onclick="buttonDecode()">Descriptografar</button>
+
+      <br><br>
+
+      <textarea placeholder="Resultado" id="id-result"></textarea>
+           
     </div>
-      
-    <script src="cipher.js"></script>
-    <script src="tests.js"></script>
 
-  </body>
-  
+    <div class="bloco">
+      <img id="cripto-animacao" src="cripto-animacao.gif" alt="Animação">
+    </div> 
+
+  </div>
+
+  <script src="script.js"></script>
+  <script src="tests.js"></script>
+
+</body>
 </html>
