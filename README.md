@@ -23,11 +23,11 @@ com facilidade e não oferecem muita segurança na comunição, mas a cifra de
 César muitas vezes pode fazer parte de um sistema mais complexo de
 criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
-![caeser-cipher](https://github.com/carinareketis/caesar-cipher/blob/master/src/prefacioCipherCesar.png)
-![caeser-cipher](https://github.com/carinareketis/caesar-cipher/blob/master/src/fluxogramaCipherCesar.png)
+![caeser-cipher](https://github.com/carinareketis/caesar-cipher/blob/master/prefacioCipherCesar.png)
+![caeser-cipher](https://github.com/carinareketis/caesar-cipher/blob/master/fluxogramaCipherCesar.png)
 
 #Demonstração 
-![caeser-cipher](https://github.com/carinareketis/caesar-cipher/blob/master/src/prefacioCipherCesar.png)
+![caeser-cipher](https://github.com/carinareketis/caesar-cipher/blob/master/Cripto.gif)
 
 
 ### Parte Obrigatória
