@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Cripto</title>
+	<link href="src/css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="src/images/favicon.ico" />
+</head>
+
+<body>
+  <main>
+    <section class="grid grid-template-rows-1">
+      <div class="item">
+        <img class="logo-cripto" src="src/images/cripto-logo.svg" alt="Logo Cripto">
+        <p class="paragraph">Envie mensagens de texto seguras para qualquer amigo XD</p>
+        <textarea placeholder="Escreva sua mensagem" class="textarea" id="textarea" ></textarea>
+        <div>
+          <input type="number" id="offset" class="offset" placeholder="Indique o deslocamento"/>     
+        </div>
+        <div>
+          <button id="btn-encode" class="btn-encode">Criptografar</button>
+          <button id="btn-decode" class="btn-decode">Descriptografar</button>  
+        </div>
+      </div>
+      <aside class="item">
+        <img class="image-cripto" src="src/images/cripto-animacao.gif" alt="Imagem Animada Segurança">
+      </aside>
+    </section>
+  </main>
+  <script src="src/js/script.js"></script>
+  <script src="src/js/test/tests.js"></script>
+</body>
+
+</html>
