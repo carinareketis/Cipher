@@ -26,7 +26,8 @@ criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13.
 ![caeser-cipher](https://github.com/carinareketis/caesar-cipher/blob/master/src/images/prefacioCipherCesar.png)
 ![caeser-cipher](https://github.com/carinareketis/caesar-cipher/blob/master/src/images/fluxogramaCipherCesar.png)
 
-#Demonstração 
+### Demonstração 
+
 ![caeser-cipher](https://github.com/carinareketis/caesar-cipher/blob/master/src/images/Cripto.gif)
 
 
