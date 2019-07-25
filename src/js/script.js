@@ -10,6 +10,7 @@ function btnSelected(btnClicked) {
   } else {
     document.getElementById("textarea").value = encode(string, -offset);
   }
+
 }
 
 function encode(string, offset) {
@@ -23,9 +24,9 @@ function encode(string, offset) {
 			encrypted += String.fromCharCode(((elem - 97 + (offset  %26) +26) %26) +97);
 		} else {
 			encrypted += String.fromCharCode(elem);
-		}
-  });
+    }
 
+  });
   return encrypted;
 }
 
